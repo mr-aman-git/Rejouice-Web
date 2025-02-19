@@ -31,7 +31,6 @@ ScrollTrigger.refresh();
 locoMotiveScroll();
 
 
-
 function mouseEffect(){
     let page1Content= document.querySelector(".page1-content");
 let mouse= document.querySelector(".mouse");
@@ -41,6 +40,8 @@ page1Content.addEventListener("mousemove", function(event){
         x:event.x,
         y:event.y
     })
+    
+    
 });
 
 page1Content.addEventListener("mouseenter", function(){
@@ -57,20 +58,26 @@ page1Content.addEventListener("mouseleave", function(){
     })
 })
 }
-mouseEffect();
+    mouseEffect();
+
+
+
 
 function page2Animation(){
-    gsap.from(".elem h1",{
-        y:120,
-        stagger:0.2,
-        duration:1,
-        scrollTrigger: {
-            trigger: ".page2",
-            scroller: ".main",
-            start: "top 40%",
-            end: "top 36%",
-            // markers: true,
-            scrub: 2
-        }
-    })
+        gsap.from(".elem h1",{
+            y:120,
+            stagger:0.2,
+            duration:1,
+            scrollTrigger: {
+                trigger: ".page2",
+                scroller: ".main",
+                start: "top 40%",
+                end: "top 36%",
+                // markers: true,
+                scrub: 2
+            }
+        })
+
+    
 }
+page2Animation();
