@@ -1,11 +1,11 @@
 @font-face {
     font-family: nb;
-    src: url(./SuisseIntl-Light.ttf);
+    src: url(./font/SuisseIntl-Light.ttf);
 }
 
 @font-face {
     font-family: aman;
-    src: url(./SaltwatertypeitalicpersonalI-mLegG.otf);
+    src: url(./font/Typographica-Blp5.ttf);
 }
 
 *{
@@ -86,9 +86,9 @@ nav h4{
 }
 .page1-content h1{
     font-family: aman;
-    font-size: 23vw;
+    font-size: 27vw;
     font-weight:100;
-    line-height: 17vw;
+    line-height: 29vw;
 }
 .page1-content h1 span{
     font-family: aman;
@@ -110,6 +110,7 @@ nav h4{
     padding-bottom: 1.2vw;
     margin-bottom: 1vw;
     border-bottom: 1px solid rgb(173, 169, 169);
+    margin-left: 20px;
 }
 .page2-top h3{
     margin-top: 20px;
@@ -121,6 +122,7 @@ nav h4{
 .page2-top h4{
     font-size: 1.7vw;
     font-weight: 500;
+    margin-right: 15px;
 }
 .elem{
     overflow: hidden;
