@@ -161,3 +161,17 @@ text-align: center;
     font-size: 3vw;
 
 }
+
+.page3-element{
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.page3-element .box{
+    width: 33%;
+    height: 100%;
+    background-color: blue;
+}
