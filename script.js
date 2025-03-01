@@ -31,6 +31,7 @@ ScrollTrigger.refresh();
 locoMotiveScroll();
 
 
+
 function mouseEffect(){
     let page1Content= document.querySelector(".page1-content");
 let mouse= document.querySelector(".mouse");
@@ -60,17 +61,18 @@ page1Content.addEventListener("mouseleave", function(){
 }
     mouseEffect();
 
-function page2Animation(){
+    function page2Animation(){
         gsap.from(".elem h1",{
-            y:120,
-            stagger:0.2,
-            duration:1,
+        
+            y:200,
+            stagger:1,
+            duration:2,
             scrollTrigger: {
-                trigger: ".page2",
+                trigger: ".page2 h1",
                 scroller: ".main",
-                start: "top 40%",
-                end: "top 36%",
-                // markers: true,
+                start: "top 80%",
+                end: "bottom 60%",
+                markers: true,
                 scrub: 2
             }
         })
