@@ -133,3 +133,31 @@ nav h4{
     font-size: 4.2vw;
     font-weight: 500;
 }
+
+.page3{
+    width: 100%;
+    min-height: 100vh;
+    padding: 3vw;
+    position: relative;
+}
+
+.page3-top{
+text-align: center;
+}
+.page3-top h4{
+    font-weight: 500;
+    font-size: 1vw;
+    margin-bottom: 1vw;
+}
+.page3-top h4 span{
+    background-color: black;
+    color: white;
+    font-size: 0.65vw;
+    padding: 3px 8px;
+    border-radius: 10px;
+}
+.page3-top h2{
+    font-weight: 500;
+    font-size: 3vw;
+
+}
